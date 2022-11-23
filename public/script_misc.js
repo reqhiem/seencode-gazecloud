@@ -37,4 +37,4 @@ const main = (gridNum) => {
     drawGrid(windowWidth, windowHeight, "grid", sizeX, sizeY);
 }
 
-main(5);
+main(3);

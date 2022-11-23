@@ -15,6 +15,7 @@ function PlotGaze(GazeData) {
     
     var gaze = document.getElementById("gaze");
     x -= gaze.clientWidth/2;
+
     y -= gaze.clientHeight/2;
     gaze.style.left = x + "px";
     gaze.style.top = y + "px";
@@ -72,5 +73,5 @@ window.addEventListener("load", function() {
     GazeCloudAPI.OnResult = PlotGaze; 
 });
 
-//drawGrid(3);
+drawGrid(3);
 
